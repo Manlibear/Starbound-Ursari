@@ -1,0 +1,16 @@
+[
+	{ "op" : "add",
+		"path" : "/speciesShips/ursari",
+		"value" : [
+		    "/ships/ursari/ursarit0.structure",
+			"/ships/ursari/ursarit1.structure",
+			"/ships/ursari/ursarit2.structure",
+			"/ships/ursari/ursarit3.structure",
+			"/ships/ursari/ursarit4.structure",
+			"/ships/ursari/ursarit5.structure",
+			"/ships/ursari/ursarit6.structure",
+			"/ships/ursari/ursarit7.structure",
+			"/ships/ursari/ursarit8.structure"
+		]
+	}
+]

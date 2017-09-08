@@ -1,0 +1,17 @@
+[
+	{
+		"op": "add",
+		"path": "/initialquests/ursari",
+		"value": [
+			"protectorate"
+		]
+	},
+	{
+		"op": "add",
+		"path": "/pronounGenders/ursari",
+		"value": {
+			"male": "neutral",
+			"female": "neutral"
+		}
+	}
+]
