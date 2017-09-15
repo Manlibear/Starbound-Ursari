@@ -2,21 +2,22 @@
   "config" : {
     "shipUpgrades" : {
       "capabilities" : [],
-      "maxFuel" : 1000,
       "crewSize" : 2
     }
   },
+
   "backgroundOverlays" : [
     {
       "image" : "ursariT1.png",
-      "position" : [8, 14],
+      "position" : [8, 12],
       "fullbright" : true
     },
     {
       "image" : "ursariT1lit.png",
-      "position" : [8, 14]
+      "position" : [8, 12]
     }
   ],
+
   "blockKey" : "blockKey.config:blockKey",
   "blockImage" : "ursariT0blocks.png"
 }

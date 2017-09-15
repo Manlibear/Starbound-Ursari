@@ -2,21 +2,22 @@
   "config" : {
     "shipUpgrades" : {
       "capabilities" : ["teleport", "planetTravel", "systemTravel"],
-      "maxFuel" : 1000,
       "crewSize" : 10
     }
   },
+
   "backgroundOverlays" : [
     {
       "image" : "ursariT7.png",
-      "position" : [8.39, 3.875],
+      "position" : [44, 34],
       "fullbright" : true
     },
     {
       "image" : "ursariT7lit.png",
-      "position" : [8.39, 3.875]
+      "position" : [44, 34]
     }
   ],
+
   "blockKey" : "blockKey.config:blockKey",
   "blockImage" : "ursariT7blocks.png"
 }
