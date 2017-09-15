@@ -1,0 +1,21 @@
+{
+  "input": [
+    {
+      "item": "ironbar",
+      "count": 5
+    },
+    {
+      "item": "climbingrope",
+      "count": 2
+    }
+  ],
+  "output": {
+    "item": "ursarishield",
+    "count": 1
+  },
+  "groups": [
+    "craftinganvil",
+    "weapons",
+    "all"
+  ]
+}
