@@ -1,48 +1,63 @@
 {
-  "objectName" : "ursaricaptainschair",
-  "colonyTags" : ["ursari"],
-  "itemTags" : ["captainschair"],
-  "printable" : false,
-  "rarity" : "Common",
-  "objectType" : "loungeable",
-  "description" : "The Captain sits here to fly the ship.",
-  "shortdescription" : "ursari Captain's Chair",
-  "race" : "ursari",
-  "category" : "furniture",
-  "apexDescription" : "Ahh... Sweet freedom. I can use the ship's navigator from this chair.",
-  "avianDescription" : "The Captain's chair. That's me I can use the ship's navigator from this chair.",
-  "floranDescription" : "Best chair on ship. Floran can sit here to ussse navigator and fly ship",
-  "glitchDescription" : "Excited. Sitting on the Captain's chair allows me to fly this ship. Where to next?",
-  "humanDescription" : "The Captain's chair. The person sitting here decides where the ship goes",
-  "hylotlDescription" : "Sitting on the Captain's chair allows me to fly this ship.",
-  "novakidDescription" : "The Captain's chair. The guy who sits here decides where the ship goes",
-  "inventoryIcon" : "captainschairicon.png",
-  "orientations" : [
+  "objectName": "ursaricaptainschair",
+  "colonyTags": [
+    "ursari"
+  ],
+  "itemTags": [
+    "captainschair"
+  ],
+  "printable": false,
+  "rarity": "Common",
+  "objectType": "loungeable",
+  "sitFlipDirection": false,
+  "sitCoverImage": "/objects/ship/ursaricaptainschair/ursaricaptainschaircover.png",
+  "description": "The Captain sits here to fly the ship, seems pretty comfortable.",
+  "shortdescription": "Ursari Captain's Chair",
+  "race": "ursari",
+  "category": "furniture",
+  "apexDescription": "Ahh... Sweet freedom. I can use the ship's navigator from this chair.",
+  "avianDescription": "The Captain's chair. That's me! I can use the ship's navigator from this chair.",
+  "floranDescription": "Best chair on ship. Floran can sit here to ussse navigator and fly ship!",
+  "ursariDescription": "Excited. Sitting on the Captain's chair allows me to fly this ship. Where to next?",
+  "humanDescription": "The Captain's chair. The person sitting here decides where the ship goes!",
+  "hylotlDescription": "Sitting on the Captain's chair allows me to fly this ship.",
+  "novakidDescription": "The Captain's chair. The guy who sits here decides where the ship goes! That's me!",
+  "inventoryIcon": "captainschairicon.png",
+  "orientations": [
     {
-      "image" : "ursaricaptainschair.png:<color>",
-      "imagePosition" : [-12, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "flipImages" : true,
-      "direction" : "left",
-      "sitPosition" : [1.6, 22.5]
+      "image": "ursaricaptainschair.png:<color>",
+      "imagePosition": [
+        -12,
+        0
+      ],
+      "flipImages": true,
+      "direction": "left",
+      "spaceScan": 0.1,
+      "anchors": [
+        "bottom"
+      ],
+      "sitPosition": [
+        -2,
+        18
+      ]
     },
     {
-      "image" : "ursaricaptainschair.png:<color>",
-      "imagePosition" : [-12, 0],
-      "frames" : 1,
-      "animationCycle" : 0.5,
-      "spaceScan" : 0.1,
-      "anchors" : [ "bottom" ],
-      "direction" : "right",
-      "sitPosition" : [1.6, 22.5]
+      "image": "ursaricaptainschair.png:<color>",
+      "imagePosition": [
+        -12,
+        0
+      ],
+      "direction": "right",
+      "spaceScan": 0.1,
+      "anchors": [
+        "bottom"
+      ],
+      "sitPosition": [
+        -2,
+        18
+      ]
     }
   ],
-  "interactAction" : "ScriptPane",
-  "interactData" : "/interface/cockpit/cockpit.config",
-  "sitFlipDirection" : false,
-  "soundEffect" : "/sfx/objects/shipengine.ogg",
-  "soundEffectRadius" : 1000
+  "interactAction": "ScriptPane",
+  "interactData": "/interface/cockpit/cockpit.config"
 }

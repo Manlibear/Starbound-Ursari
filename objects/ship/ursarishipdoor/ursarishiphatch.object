@@ -2,24 +2,28 @@
   "objectName" : "ursarishiphatch",
   "colonyTags" : ["ursari","door"],
   "rarity" : "Common",
+
   "category" : "door",
   "price" : 125,
   "description" : "A hatch suitable for a spaceship.",
-  "shortdescription" : "ursari Ship Hatch",
+  "shortdescription" : "Ursari Ship Hatch",
   "race" : "ursari",
-  "apexDescription" : "These hatches are used on all our ships.",
+
+  "apexDescription" : "Hatch designs like this are common on ships.",
   "avianDescription" : "A spaceship hatch.",
   "floranDescription" : "Ssspaceship hatch.",
-  "glitchDescription" : "Proud. A ship hatch.",
-  "humanDescription" : "Cool hatch.",
+  "ursariDescription" : "Informed. A standard ship hatch.",
+  "humanDescription" : "A spaceship hatch.",
   "hylotlDescription" : "A basic ship hatch.",
-  "novakidDescription" : "A hatch.",
+  "novakidDescription" : "A hatch, the type you'd find on a ship.",
+
   "inventoryIcon" : "ursarishiphatchicon.png",
   "orientations" : [
     {
       "dualImage" : "ursarishiphatch.png:default",
       "imagePosition" : [-16, -20],
       "renderLayer" : "Object+5",
+
       "spaces" : [ 
                     [-2, 0], [-1, 0], [0, 0], [1, 0], [2, 0], 
                     [-2, -1], [-1, -1], [0, -1], [1, -1], [2, -1]
@@ -27,8 +31,10 @@
       "anchors" : [ "left", "right" ]
     }
   ],
+
   "scripts" : [ "/objects/wired/door/door.lua" ],
   "scriptDelta" : 5,
+
   "animation" : "/objects/wired/door/door.animation",
   "animationCustom" : {
     "sounds" : {
@@ -46,6 +52,7 @@
     "door" : "ursarishiphatch.png"
   },
   "animationPosition" : [-16, -20],
-  "inputNodes" : [ [-1, 4] ],
-  "outputNodes" : [ [0, 0] ]
+
+  "inputNodes" : [ [-2, 0] ],
+  "outputNodes" : [ [2, -1] ]
 }

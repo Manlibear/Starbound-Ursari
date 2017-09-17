@@ -5,18 +5,19 @@
   "rarity" : "Common",
   
   "category" : "decorative",
-  "description" : "A locker. Store some stuff, why don't you?",
-  "shortdescription" : "Ship Locker",
+  "description" : "Store some stuff, why don't you?",
+  "shortdescription" : "Shiplocker",
   "race" : "ursari",
-  "lightColor" : [61, 88, 102],
-  "apexDescription" : "The ship's storage system. It's not currently functional.",
-  "avianDescription" : "A device that holds many items for safe keeping. It's broken at the moment.",
-  "floranDescription" : "Sssstorage. It'sss not working.",
-  "glitchDescription" : "Distressed. This ship's storage system is malfunctioning.",
-  "humanDescription" : "A storage locker. It doesn't seem to be working.",
-  "hylotlDescription" : "An elegant storage solution. It's not currently powered.",
-  "novakidDescription" : "A locker. Ain't much use 'til it's fixed.",
-  
+  "lightColor" : [102, 90, 61],
+
+  "apexDescription" : "A Ursari storage unit. It appears to be malfunctioning.",
+  "avianDescription" : "The ship's storage locker. Sadly it seems broken.",
+  "floranDescription" : "Ursari sstore goodiess in here. When itsss working.",
+  "ursariDescription" : "Distressed. This locker seems to be broken.",
+  "humanDescription" : "A good spot to store valuables, when its actually working.",
+  "hylotlDescription" : "An old Hylotl saying comes to mind, it means nothing when the locker is broken however.",
+  "novakidDescription" : "A locker, for puttin' things in. Shame this one is wrecked.",
+
   "inventoryIcon" : "shiplockericonTier0.png",
   "orientations" : [
     {
@@ -28,7 +29,9 @@
       "anchors" : [ "background" ]
     }
   ],
+
   "animation" : "/objects/noisy/noisy.animation",
+
   "scripts" : [
     "/objects/noisy/noisy.lua"
   ],
