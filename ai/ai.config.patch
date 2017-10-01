@@ -1,10 +1,11 @@
-[{
-		"op" : "add",
-		"path" : "/species/ursari",
-		"value" : {
-			"aiFrames" : "ursariAI.png",
-			"portraitFrames" : "portraits/ursariportrait.png",
-			"staticFrames" : "staticursari.png"	
-		}
-	}
+[
+  {
+    "op": "add",
+    "path": "/species/ursari",
+    "value": {
+      "aiFrames": "ursariAI.png",
+      "portraitFrames": "portraits/ursariportrait.png",
+      "staticFrames": "staticursari.png"
+    }
+  }
 ]
